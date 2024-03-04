@@ -12,7 +12,7 @@ provider "docker" {
 }
 
 resource "docker_container" "example" {
-        name = "my-container"
+        name = "my-container1"
         image = "nginx:latest" 
 }
 
